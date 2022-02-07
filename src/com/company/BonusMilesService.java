@@ -1,9 +1,7 @@
 package com.company;
 
-public class BonusMilesService
-{
-    public int calculate(int cost)
-    {
-        return cost / 20;
+public class BonusMilesService {
+    public int calculate(int costAmount) {
+        return costAmount / 20;
     }
 }
